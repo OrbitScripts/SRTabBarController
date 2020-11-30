@@ -148,10 +148,11 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
             return
         }
         
-        guard let vc = segue.destinationController as? NSViewController else {
+        guard let vc = segue.destinationController as? SRTabItemViewController else {
             print("Could not load destination view controller")
             return
         }
+        vc.tabBarVc = self
         
         let pieces = id.split(separator: "_")
         

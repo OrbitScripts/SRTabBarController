@@ -37,7 +37,7 @@ public class SRTabItem: NSButton {
                 NSAttributedString.Key.foregroundColor: NSColor.white
             ])
         } else {
-            title = ""
+            title = " " // Fix tint color issue
             imagePosition = .imageOnly
         }
         
