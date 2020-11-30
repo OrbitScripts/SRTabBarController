@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		169713AC2574F85400FD99E7 /* SRTabItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169713AB2574F85400FD99E7 /* SRTabItemViewController.swift */; };
+		169713E72574FF4600FD99E7 /* SRTabItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169713E62574FF4600FD99E7 /* SRTabItemViewController.swift */; };
 		2899BC601CEB7C3000D2DCC0 /* SRTabLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899BC5F1CEB7C3000D2DCC0 /* SRTabLocation.swift */; };
 		2899BC631CEB7F1500D2DCC0 /* SRTabViewTop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899BC621CEB7F1500D2DCC0 /* SRTabViewTop.xib */; };
 		2899BC651CEB827A00D2DCC0 /* SRTabViewLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899BC641CEB827A00D2DCC0 /* SRTabViewLeft.xib */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		169713AB2574F85400FD99E7 /* SRTabItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTabItemViewController.swift; sourceTree = "<group>"; };
+		169713E62574FF4600FD99E7 /* SRTabItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRTabItemViewController.swift; path = ../../Pod/SRTabItemViewController.swift; sourceTree = "<group>"; };
 		2899BC5F1CEB7C3000D2DCC0 /* SRTabLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRTabLocation.swift; path = ../../Pod/SRTabLocation.swift; sourceTree = "<group>"; };
 		2899BC621CEB7F1500D2DCC0 /* SRTabViewTop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTabViewTop.xib; path = ../../Pod/SRTabViewTop.xib; sourceTree = "<group>"; };
 		2899BC641CEB827A00D2DCC0 /* SRTabViewLeft.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTabViewLeft.xib; path = ../../Pod/SRTabViewLeft.xib; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			children = (
 				2899BC611CEB7C8200D2DCC0 /* Nibs */,
 				28DC76A11CE8A5520054FEC4 /* SRTabBarController.swift */,
-				169713AB2574F85400FD99E7 /* SRTabItemViewController.swift */,
+				169713E62574FF4600FD99E7 /* SRTabItemViewController.swift */,
 				28DC76A71CE8A7B80054FEC4 /* SRTabView.swift */,
 				28DC76A91CE8A7CA0054FEC4 /* SRTabBar.swift */,
 				28DC76AD1CEA1EDF0054FEC4 /* SRTabSegue.swift */,
@@ -204,7 +204,7 @@
 				28F0CF711CEBC0EA0031D160 /* ExampleWindowController.swift in Sources */,
 				2899BC601CEB7C3000D2DCC0 /* SRTabLocation.swift in Sources */,
 				28DC76B01CEA24EC0054FEC4 /* SRTabBarDelegate.swift in Sources */,
-				169713AC2574F85400FD99E7 /* SRTabItemViewController.swift in Sources */,
+				169713E72574FF4600FD99E7 /* SRTabItemViewController.swift in Sources */,
 				28DC76A21CE8A5520054FEC4 /* SRTabBarController.swift in Sources */,
 				28DC76AA1CE8A7CA0054FEC4 /* SRTabBar.swift in Sources */,
 				28DC76B21CEA2C880054FEC4 /* SRTabItem.swift in Sources */,
