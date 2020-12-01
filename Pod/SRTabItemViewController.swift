@@ -8,7 +8,7 @@
 
 import Cocoa
 
-public class SRTabItemViewController: NSViewController {
+open class SRTabItemViewController: NSViewController {
   public var tabBarVc: SRTabBarController!
   
   public func goToIndex(index: Int) {
