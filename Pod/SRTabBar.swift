@@ -45,7 +45,7 @@ public class SRTabBar: NSVisualEffectView {
             
             stack.removeFromSuperview()
             stack = NSStackView(views: items.sorted { $0.index < $1.index })
-            print(itemSpacing)
+            //print(itemSpacing)
             stack.spacing = itemSpacing
             addSubview(stack)
             

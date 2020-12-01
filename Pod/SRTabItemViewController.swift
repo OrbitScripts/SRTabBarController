@@ -8,10 +8,10 @@
 
 import Cocoa
 
-class SRTabItemViewController: NSViewController {
-  var tabBarVc: SRTabBarController!
+public class SRTabItemViewController: NSViewController {
+  public var tabBarVc: SRTabBarController!
   
-  func goToIndex(index: Int) {
+  public func goToIndex(index: Int) {
     tabBarVc.tabBar.setActive(index: index)
     tabBarVc.tabView.selectTabViewItem(at: index)
   }
