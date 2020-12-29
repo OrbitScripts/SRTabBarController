@@ -15,5 +15,13 @@ open class SRTabItemViewController: NSViewController {
     tabBarVc.tabBar.setActive(index: index)
     tabBarVc.tabView.selectTabViewItem(at: index)
   }
+
+  public func hideTabBar() {
+    tabBarVc.tabBar.isHidden = true
+  }
+  
+  public func showTabBar() {
+    tabBarVc.tabBar.isHidden = false
+  }
 }
 
