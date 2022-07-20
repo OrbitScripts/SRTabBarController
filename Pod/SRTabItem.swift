@@ -17,7 +17,7 @@ public class SRTabItem: NSButton {
     var index = 0
     
     /// The view controller associated with this item
-    var viewController: NSViewController?
+    public var viewController: NSViewController?
     
     // MARK: - Initializers
     
